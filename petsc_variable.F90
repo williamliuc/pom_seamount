@@ -10,7 +10,7 @@ module pvariable
   Vec       :: p_b,p_x,p_x_all
   KSP       :: P_ksp
   PC        :: pc
-  VecScatter:: p_ctx
+  VecScatter:: p_ctx 
   IS        :: p_from,p_to
   PetscInt,dimension(:),allocatable :: ix
 end module 

@@ -13,4 +13,4 @@ module pvariable
   VecScatter:: p_ctx
   IS        :: p_from,p_to
   PetscInt,dimension(:),allocatable :: ix
-end module
+end module 
